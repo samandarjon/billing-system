@@ -1,0 +1,11 @@
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const GET_ERRORS = "GET_ERRORS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const GET_PRODUCT = "GET_PRODUCT";
+export const GET_ORDERS = "GET_ORDERS";
+export const GET_ORDER = "GET_ORDER";
+export const GET_FILE = "GET_FILE";
+export const CLEAR_CURRENT_PROFILE = "CLEAR_CURRENT_PROFILE";
+export const GET_PRODUCT_TAX = "GET_PRODUCT_TAX";
+export const GET_TAX = "GET_TAX";

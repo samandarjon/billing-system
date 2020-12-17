@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: admin
+    url: jdbc:h2:mem:db_supermarket
+    initialization-mode: always
+    password: smndr2013
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    database-platform: org.hibernate.dialect.H2Dialect
+  data:
+    rest:
+      base-path: /api
+jwt:
+  secret: dhskaldjaklsdl
